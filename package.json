@@ -1,6 +1,6 @@
 {
   "name": "antlr4-lexer-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A helper library with various class to assist in building a custom Antlr4 lexer",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
