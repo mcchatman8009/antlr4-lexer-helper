@@ -1,0 +1,46 @@
+{
+  "name": "antlr4-lexer-helper",
+  "version": "1.0.1",
+  "description": "A helper library with various class to assist in building a custom Antlr4 lexer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "lint": "tslint -p . -c tslint.json 'src/**/*.ts'",
+    "build": "tsc --sourceMap false",
+    "build-dev": "tsc"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "docs"
+  ],
+  "keywords": [
+    "tokenizer",
+    "typescript",
+    "ANTR4",
+    "antlr4-lexer",
+    "antlr4-tokenizer",
+    "antlr4-lexer-helper",
+    "es5"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcchatman8009/antlr4-lexer-helper"
+  },
+  "author": {
+    "name": "Marlon Chatman",
+    "email": "mcchatman8009@gmail.com"
+  },
+  "dependencies": {
+    "@types/antlr4": "^4.7.0",
+    "antlr4": "^4.7.1",
+    "text-tokenizer": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
+}
